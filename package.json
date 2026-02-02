@@ -15,5 +15,11 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.4.0"
-  }
+  },
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+}
+
 }
